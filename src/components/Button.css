@@ -1,0 +1,14 @@
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+       margin: 0px 9px;
+       background-color: Red;
+       color: white;
+       padding: 5px 14px;
+       border: 2px solid grey;
+       border-radius: 10px;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   .btn:hover{
+       background-color: grey;
+   }

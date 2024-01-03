@@ -1,0 +1,189 @@
+#home-f{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    justify-content: center;
+    padding: 7px 200px;
+    width: auto;
+}
+#home-f:before {
+    background: url('https://cdn.pixabay.com/photo/2015/01/09/11/22/fitness-594143_1280.jpg') no-repeat 50%/cover;
+    content: "";
+    height: 578px;
+    left: 0;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.ic{
+    display: flex;
+    height: 150px;
+    width: 90%;
+}
+.stats {
+    margin: 10px;
+    width: 33%;
+}
+.imh {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.stats img {
+    height: 75px;
+}
+.stats h3 {
+    text-align: center;
+}
+.btns {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 100%;
+}
+.primarycenter {
+    font-size: 50px;
+    height: 55px;
+    margin: 0;
+    padding-left: 450px;
+}
+.services {
+    display: flex;
+    margin: 34px;
+}
+.box {
+    border: 1px solid #8a2be2;
+    border-radius: 10px;
+    box-shadow: 6px 6px 2px #8a2be2;
+    margin: 10px;
+    padding: 23px;
+    width: 33%;
+}
+.box img {
+    display: block;
+    height: 80px;
+    margin: auto;
+}
+.box h4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.box p {
+    font-family: Baloo Bhaina\ 2,cursive;
+}
+.heading {
+    text-align: center;
+}
+.pa {
+    color: #171717;
+    margin: 23px;
+    text-align: center;
+}
+.benfat {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.benefit {
+    height: auto;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.beninv {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 40px;
+    width: 33%;
+}
+.beninv img {
+    align-items: center;
+    height: 140px;
+    width: 140px;
+}
+.heading {
+    text-align: center;
+}
+.benfa {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.benefi {
+    height: auto;
+    width: 80%;
+}
+.benele{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 40px;
+    width: 33%;
+}
+.benele img {
+    align-items: center;
+    height: 140px;
+    width: 140px;
+}
+.benele h3 {
+    color: #8a2be2;
+}
+.pa {
+    color: #171717;
+    margin: 23px;
+    text-align: center;
+}
+.whyfat {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.why {
+    height: auto;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.whyele {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 40px;
+    width: 50%;
+}
+.whyele h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+.whyele img {
+    height: 500px;
+}
+.whyele ul {
+    list-style: none;
+}
+.whyele ul li:before {
+    color: #8a2be2;
+    content: "✓";
+    padding: 13px;
+}
+.whyele ul li {
+    color: grey;
+    font-size: larger;
+    padding: 13px;
+    text-align: left;
+}
+#btm {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

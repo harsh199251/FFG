@@ -1,0 +1,64 @@
+#home-c{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    padding: 7px 200px;
+    width: auto;
+}
+#home-c:before {
+    background-color: skyblue;
+    content: "";
+    height: 90px;
+    left: 0;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.heading{
+    color: #8a2be2;
+    text-align: center;
+}
+.manfat {
+    align-items: center;
+    justify-content: center;
+    padding-left: 90px;
+}
+.man {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.top {
+    margin: 10px;
+    width: 50%;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.top h3 {
+    color: skyblue;
+    text-align: center;
+}
+.element {
+    display: flex;
+}
+.eleimg img {
+    height: 100px;
+    margin: 20px;
+}
+.eleimg h4 {
+    color: #8a2be2;
+    text-align: center;
+}
+.fgh {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,132 @@
+#home-w{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    justify-content: center;
+    padding: 7px 200px;
+    width: auto;
+}
+#home-w:before {
+    background: url('https://t3.ftcdn.net/jpg/06/06/54/92/240_F_606549257_0pF3eOPHkRUxJrQ17wJygx87Y0t4p9Aa.jpg') no-repeat 50%/cover;
+    content: "";
+    height: 578px;
+    left: 0;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.container{
+    border-radius: 10px;
+    margin: 100px 2px 2px 50px;
+    padding: 2px;
+    width: 50%;
+}
+#home-w h1 {
+    color: red;
+    font-family: Baloo Bhaina\ 2,cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+/* .para {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+.btn {
+    background-color: brown;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 17px;
+    padding: 6px 20px;
+}
+.primarycenter {
+    font-size: 50px;
+    height: 55px;
+    margin: 0;
+    padding-left: 450px;
+}
+.muchmore{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    display: inline;
+    height: auto;
+    margin: 15px;
+    width: 50%;
+}
+.image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.icon h3 {
+    color: #8a2be2;
+    text-align: center;
+}
+.parag{
+    text-align: center;
+}
+.parag {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.primarycenter{
+    font-size: 50px;
+    height: 55px;
+    margin: 0;
+    padding-left: 450px;
+}
+.servicescontainer {
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/12/20/15/sports-1452965_1280.jpg);
+}
+#services {
+    display: flex;
+    margin: 34px;
+    padding-bottom: 0;
+}
+.box {
+    border-radius: 23px;
+    margin: 23px;
+    padding: 23px;
+    width: 33%;
+}
+.hsecondary {
+    align-items: center;
+    color: #8a2be2;
+    display: flex;
+    justify-content: center;
+}
+.box h3 {
+    color: brown;
+    font-size: xx-large;
+}
+.box h5 {
+    color: #8a2be2;
+    text-align: center;
+}
+.enq {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* .Whyus_para p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
