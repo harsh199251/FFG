@@ -22,6 +22,7 @@ mongoose.connect(mongoURI, {
 
 const formDataSchema = new mongoose.Schema({
     name: String,
+    purpose: String,
     age: String,
     email: String,
     phone: String,
@@ -30,10 +31,10 @@ const formDataSchema = new mongoose.Schema({
 const FormData = mongoose.model('FormData', formDataSchema);
 
 app.post('/api/saveFormData', async (req, res) => {
-    const { name, age, email, phone } = req.body;
+    const { name,purpose, age, email, phone } = req.body;
 
     try {
-        const formData = new FormData({ name, age, email, phone });
+        const formData = new FormData({ name, purpose,age, email, phone });
         await formData.save();
         res.status(200).json({ message: 'Form data saved successfully!' });
     } catch (error) {
