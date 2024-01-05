@@ -12,7 +12,7 @@ var cors = require('cors');
 const { configDotenv } = require('dotenv');
 app.use(cors())
 app.use(cors({
-    origin: 'http://localhost:5001'
+    origin: ['http://localhost:5001',"https://ffg-lyart.vercel.app"]
   }));
 
 mongoose.connect(mongoURI, {
