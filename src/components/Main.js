@@ -17,7 +17,7 @@ export default function Main() {
         // // alert(data)
         // alert(JSON.stringify(data, null, 2));
         try {
-            const response = await fetch('http://localhost:5000/api/saveFormData', {
+            const response = await fetch('https://ffg-z4nr.onrender.com/api/saveFormData', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
