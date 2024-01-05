@@ -3,11 +3,13 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
+require("dotenv").config();
 app.use(express.json());
 
 // Replace this connection string with your MongoDB Atlas connection string
 const mongoURI = `${process.env.mongoURI}`;
 var cors = require('cors');
+const { configDotenv } = require('dotenv');
 app.use(cors())
 app.use(cors({
     origin: 'http://localhost:5001'
