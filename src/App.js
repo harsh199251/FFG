@@ -6,6 +6,7 @@ import Safety from './components/Safety';
 import Whyus from './components/Whyus';
 import Franchise from './components/Franchise';
 import Checkout from './components/Checkout';
+import Login from './components/Login'
 
 import {
   BrowserRouter as Router,
@@ -15,6 +16,7 @@ import {
   Routes
 } from "react-router-dom";
 import Train from './components/Train';
+import FormD from './components/FormD';
 
 function App() {
   return (
@@ -25,9 +27,10 @@ function App() {
     <Route path='/whyus' element={<Whyus/>}/>
     <Route path='/franchise' element={<Franchise/>}/>
     <Route path='/check' element={<Checkout/>}/>
-    <Route path='train'  element={<Train/>}/>
+    <Route path='/train'  element={<Train/>}/>
+    <Route path='/login'  element={<Login/>}/>
+    <Route path='/adminbaaji'  element={<FormD/>}/>
     </Routes> 
-    {/* <Whyus/> */}
     </> 
   );
 }

@@ -17,7 +17,7 @@ export default function Main() {
         // // alert(data)
         // alert(JSON.stringify(data, null, 2));
         try {
-            const response = await fetch('https://ffg-z4nr.onrender.com/api/saveFormData', {
+            const response = await fetch('https://ffg-z4nr.onrender.com/api/saveFormData ', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,6 +1,13 @@
 import React from 'react'
 import css from './Navbar.css'
-
+import Button from "./Button";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Routes
+} from "react-router-dom";
 
 export default function Navbar(props) {
   return (
@@ -15,6 +22,9 @@ export default function Navbar(props) {
             <li className="item"><a href="/whyus">Why us</a></li>
             <li className="item"><a href="/franchise">Franchise</a></li>
         </ul>
+        <div className='but'>
+        <Link to="/login"><div><Button title='Admin Login'/></div></Link>
+        </div>
     </nav>
     </>
   )

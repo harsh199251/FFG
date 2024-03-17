@@ -3,12 +3,12 @@
     align-items: center;
     margin-top: 0px;
     position: absolute;
+    width: 100%;
 }
 #logo{
     margin: 17px 33px;
     margin-left: 12px;
     height: 56px;
-    
 }
 #logo img{
     height: 66px;
@@ -49,4 +49,7 @@
 #navbar ul li a:hover{
     color: black;
     background-color: blanchedalmond;
+}
+.but{
+    padding-left: 100px;
 }

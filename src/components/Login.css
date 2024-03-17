@@ -1,0 +1,58 @@
+#home-l {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    justify-content: center;
+    padding: 7px 200px;
+}
+#home-l:before {
+    background: url('https://cdn.pixabay.com/photo/2017/01/02/11/52/workout-1946596_1280.jpg') no-repeat 50%/cover;
+    content: "";
+    height: 578px;
+    left: 0;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.container {
+    border-radius: 10px;
+    margin: 100px 2px 2px 34px;
+    padding: 2px;
+    width: 33%;
+}
+#home-l h1, #home-p p {
+    color: #000;
+    font-family: Baloo Bhaina\ 2,cursive;
+    text-align: center;
+}
+.formgrp {
+    padding: 5px;
+}
+.formgrp input {
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: block;
+    font-family: Baloo Bhaina\ 2,cursive;
+    font-size: 25px;
+    margin: 3px auto;
+    padding: 6px;
+    text-align: center;
+    width: 300px;
+}
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+       margin: 0px 9px;
+       background-color: Red;
+       color: white;
+       padding: 5px 14px;
+       border: 2px solid grey;
+       border-radius: 10px;
+       font-size: 15px;
+       cursor: pointer;
+   }
+   .btn:hover{
+       background-color: grey;
+   }
