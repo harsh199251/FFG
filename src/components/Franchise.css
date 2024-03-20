@@ -42,7 +42,9 @@
 }
 .btns {
     display: flex;
-    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
     margin-top: 80px;
     width: 100%;
 }

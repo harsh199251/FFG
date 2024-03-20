@@ -30,11 +30,12 @@
     font-size: xx-large;
     text-align: center;
 }
-/* .para {
+.para {
+    text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
-} */
+}
 .btn {
     background-color: brown;
     border: 2px solid #fff;
@@ -121,6 +122,7 @@
     justify-content: center;
     margin-top: 0;
     padding-top: 0;
+    height: 100px;
 }
 
 /* .Whyus_para p {

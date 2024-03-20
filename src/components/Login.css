@@ -43,16 +43,21 @@
     width: 300px;
 }
 .btn{
-    font-family: 'Baloo Bhaina 2', cursive;
-       margin: 0px 9px;
-       background-color: Red;
-       color: white;
-       padding: 5px 14px;
-       border: 2px solid grey;
-       border-radius: 10px;
-       font-size: 15px;
-       cursor: pointer;
-   }
-   .btn:hover{
-       background-color: grey;
-   }
+font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 9px;
+    background-color: rgb(177, 9, 9);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+}
+.btn:hover{
+    background-color: grey;
+}

@@ -46,6 +46,12 @@ app.post('/api/saveFormData', async (req, res) => {
     }
 });
 
+app.get("/formData",async (req,res)=>{
+  console.log("hi");
+  const records=await FormData.find({});
+  res.json(records);
+})
+
 // login logic 
 //password=12345
 //email=
@@ -94,6 +100,7 @@ const adminSchema = new mongoose.Schema({
     const records=await FormData.find({});
     res.json(records);
   })
+  
 
   app.post('/api/admin-login', async (req, res) => {
     const { email, password } = req.body;

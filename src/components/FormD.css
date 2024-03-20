@@ -1,4 +1,4 @@
-#home-l {
+.home-l {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     justify-content: center;
     padding: 7px 200px;
 }
-#home-l:before {
+.home-l:before {
     background: url('https://cdn.pixabay.com/photo/2017/01/02/11/52/workout-1946596_1280.jpg') no-repeat 50%/cover;
     content: "";
     height: 578px;
@@ -17,3 +17,29 @@
     width: 100%;
     z-index: -1;
 }
+/* styles.css */
+/* DisplayData.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
