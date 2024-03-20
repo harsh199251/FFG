@@ -25,7 +25,7 @@ export default function FormD() {
   
   return (
     <section className='home-l'>
-    <div className="container">
+    <div className="container-form">
         <h1 className="heading">Form Data</h1>
         <ul className="list">
             {formData.map((item, index) => (
