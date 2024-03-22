@@ -55,7 +55,7 @@ export default function Login() {
               <input type="text" name="email" onChange={handlechange} value={data.email} placeholder="Enter your UserName" />
             </div>
             <div class="formgrp">
-              <input type="text" name="password" onChange={handlechange}  value={data.password} placeholder="enter your password" />
+              <input type="password" name="password" onChange={handlechange}  value={data.password} placeholder="enter your password" />
             </div>
             <a href="/log">
               <div>

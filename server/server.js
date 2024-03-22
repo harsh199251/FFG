@@ -24,6 +24,8 @@ mongoose.connect(mongoURI, {
 .then(() => console.log('Connected to MongoDB'))
 .catch((err) => console.error('Error connecting to MongoDB:', err));
 
+//till now all the setup is made 
+
 const formDataSchema = new mongoose.Schema({
     name: String,
     purpose: String,
@@ -40,17 +42,19 @@ app.post('/api/saveFormData', async (req, res) => {
     try {
         const formData = new FormData({ name, purpose,age, email, phone });
         await formData.save();
-        res.status(200).json({ message: 'Form data saved successfully!' });
+        res.status(200).json({ message: 'Form data saved successfully!' });   //HTTP status code to 200.
     } catch (error) {
         res.status(500).json({ message: 'Error saving form data.' });
     }
 });
 
+//404=something wrong 
+
 app.get("/formData",async (req,res)=>{
-  console.log("hi");
   const records=await FormData.find({});
   res.json(records);
 })
+
 
 // login logic 
 //password=12345
@@ -72,7 +76,7 @@ const adminSchema = new mongoose.Schema({
       //before saving the document, the secured password must be stored.
       const salt = await bcrypt.genSalt(10);
       const hash = await bcrypt.hash(this.password, salt);
-      console.log(hash)
+      // console.log(hash)
       this.password = hash;
       next();
     } catch (error) {
@@ -107,7 +111,7 @@ const adminSchema = new mongoose.Schema({
   
     try {
       const admin = await Admin.findOne({ email });
-      console.log(admin);
+      // console.log(admin);
       if (!admin) {
         // alert("wrong credential");
         return res.status(401).json({ message: 'Invalid email or password' });
@@ -115,7 +119,7 @@ const adminSchema = new mongoose.Schema({
       // console.log(email);
       // console.log(admin.email);
       const passwordMatch = await bcrypt.compare(password, admin.password);
-      console.log(passwordMatch);
+      // console.log(passwordMatch);
       if (!passwordMatch) {
         // alert("wrong credential");
         return res.status(401).json({ message: 'Invalid email or password' });

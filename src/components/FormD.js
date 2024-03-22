@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import css from './FormD.css'
+import Button from "./Button";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Routes
+} from "react-router-dom";
 
 export default function FormD() {
 
@@ -23,22 +31,24 @@ export default function FormD() {
       fetchData();
   }, []);
   
-  return (
+return (
     <section className='home-l'>
-    <div className="container-form">
-        <h1 className="heading">Form Data</h1>
-        <ul className="list">
-            {formData.map((item, index) => (
-                <li key={index} className="listItem">
-                    <p><strong>Name:</strong> {item.name}</p>
-                    <p><strong>Purpose:</strong> {item.purpose}</p>
-                    <p><strong>Age:</strong> {item.age}</p>
-                    <p><strong>Email:</strong> {item.email}</p>
-                    <p><strong>Phone:</strong> {item.phone}</p>
-                </li>
-            ))}
-        </ul>
-    </div>
+        <div className="container-form">
+            <h1 className="heading">Form Data</h1>
+            <Link to="/"><div><Button title='LogOut'/></div></Link>
+            <ul className="list">
+                {formData.map((item, index) => (
+                    <li key={index} className="listItem">
+                        <p><strong>Name:</strong> {item.name}</p>
+                        <p><strong>Purpose:</strong> {item.purpose}</p>
+                        <p><strong>Age:</strong> {item.age}</p>
+                        <p><strong>Email:</strong> {item.email}</p>
+                        <p><strong>Phone:</strong> {item.phone}</p>
+                    </li>
+                ))}
+            </ul>
+        </div>
     </section>
 );
+
 }
